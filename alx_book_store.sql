@@ -19,7 +19,7 @@ CREATE TABLE Customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_name VARCHAR(215),
     email VARCHAR(215),
-    ADDRESS TEXT
+    address TEXT
 );
 
 CREATE TABLE Orders (
