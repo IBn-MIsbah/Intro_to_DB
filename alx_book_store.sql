@@ -8,7 +8,7 @@ CREATE TABLE Authors (
 
 CREATE TABLE Books (
     book_id INT AUTO_INCREMENT PRIMARY KEY,
-    tiitle VARCHAR(130),
+    title VARCHAR(130),
     author_id INT,
     price DOUBLE,
     publication_date DATE,
